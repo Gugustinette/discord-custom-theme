@@ -1,6 +1,5 @@
 /* 
-Discord Custom Theme - Chroma Glow
-@author Gugustinette
+Discord Arc Boost - Custom Theme
 */
 
 /*
@@ -30,6 +29,33 @@ Opacity
   --bg-overlay-opacity-chat: 0.8;
   --bg-overlay-opacity-home: 0.85;
   --bg-overlay-opacity-home-card: 0.8;
+}
+/*
+Server Manage Navbar
+*/
+div.scroller-3X7KbA {
+  background: var(--bg-overlay-4);
+}
+/*
+Server Manage Buttons
+*/
+.circleIconButton-1VxDrg {
+  background-color: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6)) !important;
+}
+/*
+Dynamic Integrations
+*/
+.grid-1aWVsE {
+  background: var(--bg-overlay-1);
+}
+/*
+Unwanted shadow
+*/
+.theme-dark .children-3xh0VB:after {
+  background: none !important;
+}
+.theme-dark .form-3gdLxP:before {
+  background: none !important;
 }
 /*
 Linear Gradient Overlays
